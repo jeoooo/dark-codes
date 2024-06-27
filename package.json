@@ -20,10 +20,13 @@
       }
     ]
   },
-  "iconThemes": {
-    "light": "dark-codes.png",
-    "dark": "dark-codes.png"
-  },
+  "iconThemes": [
+    {
+      "id": "vs-minimal",
+      "label": "%minimalIconThemeLabel%",
+      "path": "./fileicons/vs_minimal-icon-theme.json"
+    }
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/jeoooo/dark-codes.git"
